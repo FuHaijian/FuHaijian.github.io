@@ -1,9 +1,9 @@
 # Site settings
-title: 荒漠
-SEOTitle: 荒漠 - 开辟代码的海洋
+title: My_Blog for Jesen Fu
+SEOTitle: blog - 真·blog空间·交流者
 header-img: img/post-bg-desk.jpg
 email: fuhaijian163@163.com
-description: "Mr付的前端博客网站，个人博客， 技术总结"
+description: "Mr.付的前端博客网站，个人博客， 技术总结"
 keyword: "react, 前端, css, webpack"
 url: "https://FuHaijian.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -99,13 +99,10 @@ service-worker: true
 # 友情链接，请尽量不要删除，谢谢！
 friends: [
     {
-        title: "星球国际语",
-        href: "https://globien.gitee.io"
+        title: "little Fu的掘金",
+        href: "https://juejin.cn/user/176394749346717/posts"
     },{
-        title: "星球语互动社区",
-        href: "https://tieba.baidu.com/f?kw=%E6%A0%BC%E7%BD%97%E6%AF%94%E8%A8%80&fr=home"
-    },{
-        title: "知乎：人造国际语",
-        href: "https://zhuanlan.zhihu.com/Artificial-International-Language"
+        title: "Mr.Fu的gitee",
+        href: "https://gitee.com/jensmith"
     }
 ]

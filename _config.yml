@@ -3,7 +3,7 @@ title: Blog of Jesen Fu
 SEOTitle: blog - 真·blog空间·交流者
 header-img: img/post-bg-desk.jpg
 email: fuhaijian163@163.com
-description: "Mr.付的前端博客网站，个人博客， 技术总结"
+description: "Mr.付的前端博客网站，个人博客，技术总结"
 keyword: "react, 前端, css, webpack"
 url: "https://FuHaijian.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -99,7 +99,7 @@ service-worker: true
 # 友情链接，请尽量不要删除，谢谢！
 friends: [
     {
-        title: "little Fu的掘金",
+        title: "Little Fu的掘金",
         href: "https://juejin.cn/user/176394749346717/posts"
     },{
         title: "Mr.Fu的gitee",

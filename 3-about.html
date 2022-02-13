@@ -6,10 +6,10 @@ header-img: "img/post-bg-rwd.jpg"
 ---
 
 <!-- Language Selector -->
-<select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+ <select class="sel-lang" onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
     <option value="0" selected> 中文 Chinese </option>
     <option value="1"> 英文 English </option>
-</select>
+</select> 
 
 <!-- Chinese Version -->
 <div class="zh post-container">
@@ -17,6 +17,7 @@ header-img: "img/post-bg-rwd.jpg"
     <!--copied from markdown -->
     <blockquote><p>冰冻三尺 非一日之寒<br>
     积土成山 非斯须之作</p></blockquote>
+
     <p><strong>JavaScript 简介</strong></p>
 
     <p>JavaScript 是互联网上最流行的脚本语言，这门语言可用于 HTML 和 web，更可广泛用于服务器、PC、笔记本电脑、平板电脑和智能手机等设备。</p>
@@ -32,7 +33,6 @@ header-img: "img/post-bg-rwd.jpg"
     <p>JavaScript 很容易学习。</p>
 
     <p></p>
-    
 </div>
 
 <!-- English Version -->
@@ -95,6 +95,18 @@ header-img: "img/post-bg-rwd.jpg"
     // init
     _render();
 </script>
-<!-- disqus 公共JS代码 end -->
-{% endif %}
 
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus.username}}";
+    var disqus_identifier = "{{site.disqus.username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
